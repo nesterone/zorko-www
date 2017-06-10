@@ -1,9 +1,9 @@
 <template>
     <div id="app">
         <div class="js-Landing">
-            <img src="./../assets/vg.png">
+            <img src="~assets/vg.png">
             <h1>{{ msg }}</h1>
-            <a class="button--default" :href="vcodeUrl">Try it</a>
+            <a class="button--default" :href="zorkoVgcodeUrl">Try It!</a>
 
             <h2>Essential Link</h2>
             <ul>
@@ -17,21 +17,18 @@
 </template>
 
 <script>
-
-  var ZORKO_VCODE_APP_URL = "//app.zorko.io/vcode/"
-
   export default {
     name: 'landing',
-
-    computed: {
-      vcodeUrl (){
-        return ZORKO_VCODE_APP_URL;
-      }
-    },
 
     data () {
       return {
         msg: 'Welcome to Vega Code'
+      }
+    },
+
+    asyncData ({ env }) {
+      return {
+        zorkoVgcodeUrl: env.zorkoVgcodeUrl
       }
     }
   }

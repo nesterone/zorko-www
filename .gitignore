@@ -1,3 +1,7 @@
 .idea/
+.nuxt/
 *.iml
 .env
+my-project/
+node_modules/
+temp/

@@ -1,9 +1,9 @@
 {
-  "name": "@zorko/zorko-site",
+  "name": "zorko-www",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt generate",
-    "start": "nuxt start",
+    "start": "nuxt build && nuxt start",
     "test": "ava"
   },
   "devDependencies": {

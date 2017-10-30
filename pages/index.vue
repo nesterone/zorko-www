@@ -5,7 +5,7 @@
             <h1>{{ msg }}</h1>
             <a class="button--default" :href="zorkoVgcodeUrl">Try It!</a>
 
-            <h2>Essential Link</h2>
+            <h2>Essential Link !!!!!</h2>
             <ul>
                 <li><a href="http://example.com" target="_blank">Twitter</a></li>
                 <li><a href="http://example.com" target="_blank">Discuss</a></li>
@@ -22,7 +22,7 @@
 
     data () {
       return {
-        msg: 'Welcome to Vega Code'
+        msg: 'Welcome to Vega Code !!!'
       }
     },
 

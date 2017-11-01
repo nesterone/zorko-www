@@ -1,17 +1,20 @@
 <template>
       <v-content>
         <section>
-          <v-parallax src="/hero.jpeg" height="600">
+          <v-parallax src="/paint3.jpg" height="600">
             <v-layout
                     column
                     align-center
                     justify-center
                     class="white--text"
                     >
-              <img src="~assets/vuetify.png" alt="Vuetify.js" height="200">
 
-              <h1 class="white--text mb-2 display-1 text-xs-center">Parallax Template</h1>
-              <div class="subheading mb-3 text-xs-center">Powered by Vuetify</div>
+
+              <img src="~assets/logo1.jpg" alt="Vuetify.js" height="200">
+
+              <h2 class="white--text mb-2 display-1 text-xs-center"> Try to explore data and collaborate around it </h2>
+              <h2 class="white--text mb-2 display-1 text-xs-center"> Visualizate it</h2>
+              <!--<div class="subheading mb-3 text-xs-center">visualizate it</div>-->
               <v-btn
                       class="blue lighten-2 mt-5"
                       dark
@@ -24,6 +27,8 @@
           </v-parallax>
         </section>
 
+
+
         <section>
           <v-layout
                   column
@@ -33,9 +38,9 @@
                   >
             <v-flex xs12 sm4 class="my-3">
               <div class="text-xs-center">
-                <h2 class="headline">The best way to start developing</h2>
+                <h2 class="headline">The best way to start working with data</h2>
                 <span class="subheading">
-                  Cras facilisis mi vitae nunc
+                  Hard working
                 </span>
               </div>
             </v-flex>
@@ -48,7 +53,7 @@
                         <v-icon x-large class="blue--text text--lighten-2">color_lens</v-icon>
                       </v-card-text>
                       <v-card-title primary-title class="layout justify-center">
-                        <div class="headline text-xs-center">Material Design</div>
+                        <div class="headline text-xs-center">Step 1</div>
                       </v-card-title>
                       <v-card-text>
                         Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
@@ -63,7 +68,7 @@
                         <v-icon x-large class="blue--text text--lighten-2">flash_on</v-icon>
                       </v-card-text>
                       <v-card-title primary-title class="layout justify-center">
-                        <div class="headline">Fast development</div>
+                        <div class="headline">Step 2</div>
                       </v-card-title>
                       <v-card-text>
                         Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
@@ -78,7 +83,7 @@
                         <v-icon x-large class="blue--text text--lighten-2">build</v-icon>
                       </v-card-text>
                       <v-card-title primary-title class="layout justify-center">
-                        <div class="headline text-xs-center">Completely Open Sourced</div>
+                        <div class="headline text-xs-center">Step 3</div>
                       </v-card-title>
                       <v-card-text>
                         Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
@@ -94,10 +99,10 @@
         </section>
 
         <section>
-          <v-parallax src="/section.jpeg" height="380">
+          <v-parallax src="/paint9.jpg" height="380">
             <v-layout column align-center justify-center>
-              <div class="headline white--text mb-3 text-xs-center">Web development has never been easier</div>
-              <em>Kick-start your application today</em>
+              <div class="headline white--text mb-3 text-xs-center">Zorko is an open platform which allows user to connect to different data sources</div>
+              <em>user able to explore provided datasets, build different visualizations and share not only visualization, but complete projects</em>
               <v-btn
                       class="blue lighten-2 mt-5"
                       dark
@@ -116,12 +121,10 @@
               <v-flex xs12 sm4>
                 <v-card class="elevation-0 transparent">
                   <v-card-title primary-title class="layout justify-center">
-                    <div class="headline">Company info</div>
+                    <div class="headline">About us</div>
                   </v-card-title>
                   <v-card-text>
-                    Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
-                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                    Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
+                    We are champions.
                   </v-card-text>
                 </v-card>
               </v-flex>
@@ -130,32 +133,32 @@
                   <v-card-title primary-title class="layout justify-center">
                     <div class="headline">Contact us</div>
                   </v-card-title>
-                  <v-card-text>
-                    Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
-                  </v-card-text>
+                  <!--<v-card-text>-->
+                    <!--Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.-->
+                  <!--</v-card-text>-->
                   <v-list class="transparent">
-                    <v-list-tile>
-                      <v-list-tile-action>
-                        <v-icon class="blue--text text--lighten-2">phone</v-icon>
-                      </v-list-tile-action>
-                      <v-list-tile-content>
-                        <v-list-tile-title>777-867-5309</v-list-tile-title>
-                      </v-list-tile-content>
-                    </v-list-tile>
-                    <v-list-tile>
-                      <v-list-tile-action>
-                        <v-icon class="blue--text text--lighten-2">place</v-icon>
-                      </v-list-tile-action>
-                      <v-list-tile-content>
-                        <v-list-tile-title>Chicago, US</v-list-tile-title>
-                      </v-list-tile-content>
-                    </v-list-tile>
+                    <!--<v-list-tile>-->
+                      <!--<v-list-tile-action>-->
+                        <!--<v-icon class="blue&#45;&#45;text text&#45;&#45;lighten-2">phone</v-icon>-->
+                      <!--</v-list-tile-action>-->
+                      <!--<v-list-tile-content>-->
+                        <!--<v-list-tile-title>777-867-5309</v-list-tile-title>-->
+                      <!--</v-list-tile-content>-->
+                    <!--</v-list-tile>-->
+                    <!--<v-list-tile>-->
+                      <!--<v-list-tile-action>-->
+                        <!--<v-icon class="blue&#45;&#45;text text&#45;&#45;lighten-2">place</v-icon>-->
+                      <!--</v-list-tile-action>-->
+                      <!--<v-list-tile-content>-->
+                        <!--<v-list-tile-title>Chicago, US</v-list-tile-title>-->
+                      <!--</v-list-tile-content>-->
+                    <!--</v-list-tile>-->
                     <v-list-tile>
                       <v-list-tile-action>
                         <v-icon class="blue--text text--lighten-2">email</v-icon>
                       </v-list-tile-action>
                       <v-list-tile-content>
-                        <v-list-tile-title>john@vuetifyjs.com</v-list-tile-title>
+                        <v-list-tile-title>igornester@gmail.com</v-list-tile-title>
                       </v-list-tile-content>
                     </v-list-tile>
                   </v-list>
@@ -171,8 +174,9 @@
               <div class="white--text ml-3">
                 Made with
                 <v-icon class="red--text">favorite</v-icon>
-                by <a class="white--text" href="https://vuetifyjs.com" target="_blank">Vuetify</a>
-                and <a class="white--text" href="https://github.com/vwxyzjn">Costa Huang</a>
+                by
+                <!--<a class="white&#45;&#45;text" href="https://vuetifyjs.com" target="_blank">Vuetify</a>-->
+                <a class="white--text" href="https://github.com/nesterone">Igor Nesterenko</a>
               </div>
             </v-flex>
           </v-layout>

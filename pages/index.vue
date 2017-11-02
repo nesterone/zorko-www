@@ -1,6 +1,16 @@
 <template>
       <v-content>
         <section>
+          <v-parallax src="/hero.jpeg" height="600">
+            <v-layout
+                    column
+                    align-center
+                    justify-center
+                    class="white--text"
+                    >
+              <img src="~assets/vuetify.png" alt="Vuetify.js" height="200">
+      <v-content>
+        <section>
           <v-parallax src="/paint3.jpg" height="600">
             <v-layout
                     column
@@ -19,7 +29,7 @@
                       class="blue lighten-2 mt-5"
                       dark
                       large
-                      href="/pre-made-themes"
+                      :href="zorkoAppUrl"
                       >
                 Get Started
               </v-btn>
@@ -187,3 +197,13 @@
 
 
 </template>
+
+<script>
+  export default {
+    data () {
+      return {
+        zorkoAppUrl: 'https://app.zorko.io'
+      }
+    }
+  }
+</script>

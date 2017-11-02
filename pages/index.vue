@@ -1,16 +1,6 @@
 <template>
       <v-content>
         <section>
-          <v-parallax src="/hero.jpeg" height="600">
-            <v-layout
-                    column
-                    align-center
-                    justify-center
-                    class="white--text"
-                    >
-              <img src="~assets/vuetify.png" alt="Vuetify.js" height="200">
-      <v-content>
-        <section>
           <v-parallax src="/paint3.jpg" height="600">
             <v-layout
                     column
@@ -117,7 +107,7 @@
                       class="blue lighten-2 mt-5"
                       dark
                       large
-                      href="/pre-made-themes"
+                      :href="zorkoAppUrl"
                       >
                 Get Started
               </v-btn>
@@ -168,7 +158,7 @@
                         <v-icon class="blue--text text--lighten-2">email</v-icon>
                       </v-list-tile-action>
                       <v-list-tile-content>
-                        <v-list-tile-title>igornester@gmail.com</v-list-tile-title>
+                        <v-list-tile-title>test@example.com</v-list-tile-title>
                       </v-list-tile-content>
                     </v-list-tile>
                   </v-list>
@@ -186,7 +176,7 @@
                 <v-icon class="red--text">favorite</v-icon>
                 by
                 <!--<a class="white&#45;&#45;text" href="https://vuetifyjs.com" target="_blank">Vuetify</a>-->
-                <a class="white--text" href="https://github.com/nesterone">Igor Nesterenko</a>
+                <a class="white--text" href="https://github.com/zorko-io/">Zorko</a>
               </div>
             </v-flex>
           </v-layout>

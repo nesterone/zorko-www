@@ -21,7 +21,7 @@
                       large
                       :href="zorkoAppUrl"
                       >
-                Get Started
+                Try Demo
               </v-btn>
             </v-layout>
           </v-parallax>
@@ -109,7 +109,7 @@
                       large
                       :href="zorkoAppUrl"
                       >
-                Get Started
+                Try Demo
               </v-btn>
             </v-layout>
           </v-parallax>

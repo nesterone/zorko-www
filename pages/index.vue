@@ -1,7 +1,7 @@
 <template>
       <v-content>
         <section>
-          <v-parallax src="/paint3.jpg" height="600">
+          <v-parallax src="/hero.png" height="600">
             <v-layout
                     column
                     align-center
@@ -9,12 +9,10 @@
                     class="white--text"
                     >
 
-
-              <img src="~assets/logo1.jpg" alt="Vuetify.js" height="200">
+              <img src="~assets/logo.png" alt="Vuetify.js" height="200">
 
               <h2 class="white--text mb-2 display-1 text-xs-center"> Try to explore data and collaborate around it </h2>
               <h2 class="white--text mb-2 display-1 text-xs-center"> Visualizate it</h2>
-              <!--<div class="subheading mb-3 text-xs-center">visualizate it</div>-->
               <v-btn
                       class="blue lighten-2 mt-5"
                       dark
@@ -99,7 +97,7 @@
         </section>
 
         <section>
-          <v-parallax src="/paint9.jpg" height="380">
+          <v-parallax src="/net.png" height="380">
             <v-layout column align-center justify-center>
               <div class="headline white--text mb-3 text-xs-center">Zorko is an open platform which allows user to connect to different data sources</div>
               <em>user able to explore provided datasets, build different visualizations and share not only visualization, but complete projects</em>
@@ -133,26 +131,7 @@
                   <v-card-title primary-title class="layout justify-center">
                     <div class="headline">Contact us</div>
                   </v-card-title>
-                  <!--<v-card-text>-->
-                    <!--Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.-->
-                  <!--</v-card-text>-->
                   <v-list class="transparent">
-                    <!--<v-list-tile>-->
-                      <!--<v-list-tile-action>-->
-                        <!--<v-icon class="blue&#45;&#45;text text&#45;&#45;lighten-2">phone</v-icon>-->
-                      <!--</v-list-tile-action>-->
-                      <!--<v-list-tile-content>-->
-                        <!--<v-list-tile-title>777-867-5309</v-list-tile-title>-->
-                      <!--</v-list-tile-content>-->
-                    <!--</v-list-tile>-->
-                    <!--<v-list-tile>-->
-                      <!--<v-list-tile-action>-->
-                        <!--<v-icon class="blue&#45;&#45;text text&#45;&#45;lighten-2">place</v-icon>-->
-                      <!--</v-list-tile-action>-->
-                      <!--<v-list-tile-content>-->
-                        <!--<v-list-tile-title>Chicago, US</v-list-tile-title>-->
-                      <!--</v-list-tile-content>-->
-                    <!--</v-list-tile>-->
                     <v-list-tile>
                       <v-list-tile-action>
                         <v-icon class="blue--text text--lighten-2">email</v-icon>
@@ -175,7 +154,6 @@
                 Made with
                 <v-icon class="red--text">favorite</v-icon>
                 by
-                <!--<a class="white&#45;&#45;text" href="https://vuetifyjs.com" target="_blank">Vuetify</a>-->
                 <a class="white--text" href="https://github.com/zorko-io/">Zorko</a>
               </div>
             </v-flex>

@@ -1,7 +1,9 @@
 <template>
   <v-app light>
     <v-toolbar class="white">
-      <v-toolbar-title v-text="title"></v-toolbar-title>
+      <v-avatar>
+        <img src="~/assets/logo.png" alt="Zorko">
+      </v-avatar>
     </v-toolbar>
     <main>
       <nuxt/>

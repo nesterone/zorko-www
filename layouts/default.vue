@@ -1,7 +1,7 @@
 <template>
   <v-app light>
     <v-toolbar class="white">
-      <v-avatar>
+      <v-avatar :tile="true">
         <img src="~/assets/logo.png" alt="Zorko">
       </v-avatar>
     </v-toolbar>
